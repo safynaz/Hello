@@ -11,12 +11,14 @@ package helloapp;
  */
 public class HelloApp {
 
+   static int  x =4, y=5;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("helloapp");
+        int z=x+y;
+        System.out.println("helloapp and the sum = "+z);
     }
     
 }
